@@ -1,0 +1,119 @@
+ [
+      { id: 0, naam: 'Pediatrie',
+        kamers: [{
+
+        kamernummer: 200,
+         patient: { patientid: 20001 , patientnaam: 'Hans Vanaken',
+         behandeling: { reden: 'flauwvallen', opname: '2019-05-15', ontslag: '2019-05-17', behandelingstype: 'nazorg',
+         behandelingsomschrijving: 'rusten', behandelingstijd: '2019-05-16 20:00', vegetarisch: true, opmerkingen: ''}},
+         kamerinfo: {sanitair: true, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 150, height: 300, x: 0, y: 50}},
+          {
+        kamernummer: 201,
+         patient: { patientid: 20002 , patientnaam: 'Ted Baker',
+         behandeling: { reden: 'armbreuk', opname: '2019-06-02', ontslag: '2019-06-10', behandelingstype: 'nazorg',
+         behandelingsomschrijving: 'stretchen en kine', behandelingstijd: '2019-06-05 10:00', vegetarisch: false, opmerkingen: ''}},
+         kamerinfo: {sanitair: true, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 150, height: 300, x: 150, y: 50}
+         },
+         {
+        kamernummer: 202,
+         patient: { patientid: 20003 , patientnaam: 'Jan Moermans',
+         behandeling: { reden: 'appendicitis', opname: '2019-07-02', ontslag: '2019-07-10', behandelingstype: 'nazorg',
+         behandelingsomschrijving: 'wonde verzorgen', behandelingstijd: '2019-07-11 12:00', vegetarisch: false, opmerkingen: ''}},
+         kamerinfo: {sanitair: true, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 300, y: 50}
+         },
+         {
+        kamernummer: 203,
+         patient: { patientid: 0 , patientnaam: '',
+         behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+         behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+         kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 150, height: 300, x: 525, y: 50}
+          },
+          {
+        kamernummer: 204,
+         patient: { patientid: 0 , patientnaam: '',
+         behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+         behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+         kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 150, height: 300, x: 675, y: 50}
+          },
+          {
+        kamernummer: 205,
+         patient: { patientid: 0 , patientnaam: '',
+         behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+         behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+         kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 0, y: 450}
+          },
+          {
+        kamernummer: 206,
+         patient: { patientid: 0 , patientnaam: '',
+         behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+         behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+         kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 225, y: 450}
+          },
+          {
+        kamernummer: 207,
+         patient: { patientid: 0 , patientnaam: '',
+         behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+         behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+         kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 450, y: 450}
+          }]  //  EINDE ARRAY KAMERS
+          }]; //  EERSTE AFDELING
+
+    const Orthopedie = [
+      { id: 1, naam: 'Orthopedie',
+        kamers: [{
+
+          kamernummer: 300,
+          patient: { patientid: 20005 , patientnaam: 'Patrick Lossa',
+            behandeling: { reden: 'flauwvallen', opname: '2019-05-15', ontslag: '2019-05-17', behandelingstype: 'nazorg',
+              behandelingsomschrijving: 'rusten', behandelingstijd: '2019-05-16 20:00', vegetarisch: true, opmerkingen: ''}},
+          kamerinfo: {sanitair: true, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 350, x: 0, y: 50}},
+          {
+            kamernummer: 301,
+            patient: { patientid: 20006 , patientnaam: 'Lionel Messi',
+              behandeling: { reden: 'spierscheur', opname: '2019-06-02', ontslag: '2019-06-10', behandelingstype: 'nazorg',
+                behandelingsomschrijving: 'stretchen en kine', behandelingstijd: '2019-06-05 10:00', vegetarisch: false, opmerkingen: ''}},
+            kamerinfo: {sanitair: true, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 150, height: 300, x: 225, y: 50}
+          },
+          {
+            kamernummer: 302,
+            patient: { patientid: 20007 , patientnaam: 'Sebatian Charlier',
+              behandeling: { reden: 'appendicitis', opname: '2019-07-02', ontslag: '2019-07-10', behandelingstype: 'nazorg',
+                behandelingsomschrijving: 'wonde verzorgen', behandelingstijd: '2019-07-11 12:00', vegetarisch: false, opmerkingen: ''}},
+            kamerinfo: {sanitair: true, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 300, y: 50}
+          },
+          {
+            kamernummer: 303,
+            patient: { patientid: 0 , patientnaam: '',
+              behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+                behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+            kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 150, height: 300, x: 750, y: 50}
+          },
+          {
+            kamernummer: 304,
+            patient: { patientid: 0 , patientnaam: '',
+              behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+                behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+            kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 350, x: 0, y: 400}
+          },
+          {
+            kamernummer: 305,
+            patient: { patientid: 0 , patientnaam: '',
+              behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+                behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+            kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 225, y: 450}
+          },
+          {
+            kamernummer: 306,
+            patient: { patientid: 0 , patientnaam: '',
+              behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+                behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+            kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 450, y: 450}
+          },
+          {
+            kamernummer: 307,
+            patient: { patientid: 0 , patientnaam: '',
+              behandeling: { reden: '', opname: '', ontslag: '', behandelingstype: '',
+              behandelingsomschrijving: '', behandelingstijd: '', vegetarisch: false, opmerkingen: ''}},
+            kamerinfo: {sanitair: false, kinderverzorgingsruimte: false, salon: false, hulp: false, width: 225, height: 300, x: 675, y: 450}
+          }]
+      }]; 
